@@ -5,4 +5,10 @@ spring:
     rest:
       base-path: /api
     mongodb:
-      uri: mongodb://tacocloud:Welcome1@localhost:27017/tacoclouddb
+#      uri: mongodb://tacocloud:Welcome1@localhost:27017/tacoclouddb
+       host: localhost
+       port: 27017
+       username: tacocloud
+       password: Welcome1
+#      password:
+       database: tacoclouddb
