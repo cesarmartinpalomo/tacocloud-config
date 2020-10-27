@@ -1,6 +1,0 @@
-spring:
-  data:
-    rest:
-      base-path: /api
-    mongodb:
-      uri: mongodb://tacocloud:Welcome1@localhost:27017/tacoclouddb
