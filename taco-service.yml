@@ -1,2 +1,14 @@
 server:
   port: 8081
+spring:
+  data:
+    rest:
+      base-path: /api
+    mongodb:
+#       uri: mongodb://tacocloud:Welcome1@localhost:27017/tacoclouddb
+       host: localhost
+       port: 27017
+       username: tacocloud
+       password: Welcome1
+#       password: '{cipher}AQAaVfR0uQlZ54yrsYVRwxjFz9GHKp07d1Wz/so8d2Q8k10DOfOcsk/pxnPT5kzOm9e2LHo3ao5zjtvyaKHfQbPfPAHybBrcqpfSSeykrpWvVx1NyAih9D7Nwq9jKTiTv0hl8VX+UvBQ8mJ0oaV0/Fsl3EKAE/JdZU595d9tKW1DMC01k2QNmaxGAP4M1CDbNlcz77rZF56l9/GdkhjhNw+1TggGrPY8MyOTm/AlUI7YAYgRBp58M18oNEXp/S6bzRXCb5cmjjPSQvzXbu9j486bsUuOv28UIzxh68Sf9xWIw39SEDJ5u+7GhY3in+1aSacMjX9sHjCl1o3oyi3EBMSXdGW7Sf59pNLGXzwL6OdhXs9/NadpCHq6zUEPRJ3mvTU='
+       database: tacoclouddb
